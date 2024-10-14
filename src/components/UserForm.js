@@ -43,7 +43,7 @@ const UserForm = () => {
     };
     return (
         <div>
-            <form className='hidden max-w-[440px] w-full flex flex-col gap-y-2 border p-2' onSubmit={handleSubmit}>
+            <form className=' hidden max-w-[440px] w-full flex flex-col gap-y-2 border p-2' onSubmit={handleSubmit}>
                 <input
                     type="text"
                     name="first_name"
@@ -98,7 +98,7 @@ const UserForm = () => {
                     required
                     className='w-full h-10 sm:h-12  border border-searchBgColor rounded-lg px-4'
                 />
-                 <button type="submit" className='mt-2 text-white border cursor-pointer flex items-center justify-center border-[#F2F2F2] w-full px-4 h-10   bg-[#0077B6] select-none rounded-lg active:scale-95	active:opacity-70'>Foydalanuvchi qo'shish</button>
+                <button type="submit" className='mt-2 text-white border cursor-pointer flex items-center justify-center border-[#F2F2F2] w-full px-4 h-10   bg-[#0077B6] select-none rounded-lg active:scale-95	active:opacity-70'>Foydalanuvchi qo'shish</button>
 
             </form>
             <GetUsers />

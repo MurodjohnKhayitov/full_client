@@ -30,7 +30,7 @@ function GetUsers() {
 
             <div className='max-w-[1280px]  w-full'>
                 <div className='flex items-center justify-between my-5'>
-                    <p className='font-bold'>Foydalanuvchilar Ruyhati  </p>
+                    <p className='font-bold'>Foydalanuvchilar Ruyhati <span>({users?.length})</span> </p>
                     <button className='hidden mt-2 text-white border cursor-pointer flex items-center justify-center border-[#F2F2F2] w-fit px-4 h-10   bg-[#0077B6] select-none rounded-lg active:scale-95	active:opacity-70'>Foydalanuvchi qo'shish</button>
                 </div>
                 <div className='w-full bg-[#c1c1c1]  h-10 rounded	 border  flex items-center jsutify-between'>
